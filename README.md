@@ -5,12 +5,16 @@ The board is based on the **CH224K USB-PD sink/trigger IC** and is designed to o
 
 <h2>PCB 3D View</h2>
 
-<p align="center">
-  <img src="Images/PCB_3D_F.png" width="700">
-</p>
+<h3>Front View</h3>
 
 <p align="center">
-  <img src="Images/PCB_3D_B.png" width="700">
+  <img src="PCB_3D_F.png" width="700" alt="USB-C Breadboard Power Supply - Front View">
+</p>
+
+<h3>Back View</h3>
+
+<p align="center">
+  <img src="PCB_3D_B.png" width="700" alt="USB-C Breadboard Power Supply - Back View">
 </p>
 
 ## Features
@@ -73,17 +77,16 @@ This makes it useful for quickly powering:
 ```text
 USB-C-Breadboard-Power-Supply/
 │
-├── USB-C Breadboard Power Supply.kicad_pro
-├── USB-C Breadboard Power Supply.kicad_sch
-├── USB-C Breadboard Power Supply.kicad_pcb
+├── USB-C Breadboard Power Supply/
+│   ├── USB-C Breadboard Power Supply.kicad_pro
+│   ├── USB-C Breadboard Power Supply.kicad_sch
+│   ├── USB-C Breadboard Power Supply.kicad_pcb
+│   │
+│   ├── My_Logos.pretty/
+│   │   └── AT_Logo.kicad_mod
+│   │
+│   └── Other KiCad project files
 │
-├── My_Logos.pretty/
-│   └── AT_Logo.kicad_mod
-│
-├── Gerber/
-│   └── Manufacturing files
-│
-├── Images/
-│   └── PCB and schematic images
-│
+├── PCB_3D_F.png
+├── PCB_3D_B.png
 └── README.md
