@@ -5,7 +5,11 @@ Compact USB-C PD breadboard power supply based on the CH224K.
 A compact USB-C Power Delivery (PD) breadboard power supply designed for electronics prototyping and development.
 
 The board is based on the **CH224K USB-PD sink/trigger IC** and is designed to obtain power from compatible USB-C PD adapters and provide it conveniently to standard breadboard power rails.
+## PCB 3D View
 
+![PCB 3D View](Images/PCB_3D_F.png)
+
+![PCB 3D View](Images/PCB_3D_B.png)
 ## Features
 
 - USB Type-C power input
