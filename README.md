@@ -8,7 +8,6 @@ The board is based on the **CH224K USB-PD sink/trigger IC** and is designed to o
 <p align="center">
   <img src="Images/PCB_3D_F.png" width="700">
 </p>
-<h2>PCB 3D View</h2>
 
 <p align="center">
   <img src="Images/PCB_3D_B.png" width="700">
